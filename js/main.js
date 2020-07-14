@@ -97,7 +97,9 @@ $(document).ready(function () {
 
   if ($(window).width() > 1024) {
     var s = skrollr.init()
-} else {
-  return false;
-}
+  } else {
+    var s = skrollr.init([
+      destroy()
+    ])
+  }
 });
