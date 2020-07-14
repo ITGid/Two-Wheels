@@ -415,7 +415,7 @@ img{
 	letter-spacing: 2.5px;
 	display: inline-block;
 	margin-bottom: 64px;
-	max-width: 60%;
+	max-width: 70%;
 	position: relative;
 	z-index: 9;
 }
@@ -448,7 +448,7 @@ img{
 	position: relative;
 }
 .slick-top-fullscreen .slick-item:nth-child(2){
-	background: url(../img/harley-davidson-6_OBa-II5Go-unsplash.jpg) no-repeat 50% 50%;
+	background: url(../img/header-bg-2.jpg) no-repeat 50% 50%;
 	background-size: cover;
 }
 .slick-top-fullscreen .slick-item::before{
@@ -1534,14 +1534,6 @@ img{
 	.main-nav__ul{
 		flex-direction: column;
 		width: 100%;
-
-		/* removing scrollr css rules on <= 767px because of burger*/
-		position: static !important;
-		top: 0 !important;
-		left: 0 !important;
-		transform: translateX(0) !important;
-		background-color: #232323 !important;
-		/* ---------------------------------------------------------- */
 	}
 	.main-nav__li{
 		padding: 0;
@@ -1575,6 +1567,7 @@ img{
 		position: relative;
 		color: #f4e3d9;
 		z-index: 9;
+		text-shadow: none;
 	}
 	.main-nav__shop-link{
 		font-size: 20px;
@@ -1600,7 +1593,6 @@ img{
 	}
 	.fullscreen-slider-section__title{
 		font-size: 50px;
-		letter-spacing: 2px;
 		margin-bottom: 34px;
 	}
 	.discover-now-link{
@@ -1838,6 +1830,10 @@ img{
 	.bottom-images{
 		margin-bottom: 50px;
 	}
+	.fullscreen-slider-section__title{
+		font-size: 44px;
+		margin-bottom: 28px;
+	}
 }
 @media screen and (max-width: 500px){
 	.logo-main{
@@ -1851,9 +1847,9 @@ img{
 		margin-bottom: 22px;
 	}
 	.fullscreen-slider-section__title{
-		font-size: 44px;
+		font-size: 40px;
 		letter-spacing: 1px;
-		margin-bottom: 24px;
+		margin-bottom: 22px;
 	}
 	.discover-now-link{
 		font-size: 14px;
@@ -2048,7 +2044,7 @@ img{
 		margin-bottom: 22px;
 	}
 	.fullscreen-slider-section__title{
-		font-size: 40px;
+		font-size: 38px;
 		letter-spacing: 1px;
 		margin-bottom: 15px;
 	}
@@ -2167,7 +2163,7 @@ img{
 		margin-bottom: 22px;
 	}
 	.fullscreen-slider-section__title{
-		font-size: 34px;
+		font-size: 32px;
 		letter-spacing: 1px;
 		margin-bottom: 12px;
 	}
