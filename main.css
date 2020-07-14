@@ -415,7 +415,7 @@ img{
 	letter-spacing: 2.5px;
 	display: inline-block;
 	margin-bottom: 64px;
-	max-width: 60%;
+	max-width: 70%;
 	position: relative;
 	z-index: 9;
 }
@@ -1593,7 +1593,6 @@ img{
 	}
 	.fullscreen-slider-section__title{
 		font-size: 50px;
-		letter-spacing: 2px;
 		margin-bottom: 34px;
 	}
 	.discover-now-link{
@@ -1831,6 +1830,10 @@ img{
 	.bottom-images{
 		margin-bottom: 50px;
 	}
+	.fullscreen-slider-section__title{
+		font-size: 44px;
+		margin-bottom: 28px;
+	}
 }
 @media screen and (max-width: 500px){
 	.logo-main{
@@ -1844,9 +1847,9 @@ img{
 		margin-bottom: 22px;
 	}
 	.fullscreen-slider-section__title{
-		font-size: 44px;
+		font-size: 40px;
 		letter-spacing: 1px;
-		margin-bottom: 24px;
+		margin-bottom: 22px;
 	}
 	.discover-now-link{
 		font-size: 14px;
@@ -2041,7 +2044,7 @@ img{
 		margin-bottom: 22px;
 	}
 	.fullscreen-slider-section__title{
-		font-size: 40px;
+		font-size: 38px;
 		letter-spacing: 1px;
 		margin-bottom: 15px;
 	}
@@ -2160,7 +2163,7 @@ img{
 		margin-bottom: 22px;
 	}
 	.fullscreen-slider-section__title{
-		font-size: 34px;
+		font-size: 32px;
 		letter-spacing: 1px;
 		margin-bottom: 12px;
 	}
