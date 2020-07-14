@@ -95,5 +95,7 @@ $(document).ready(function () {
 
   // ========================= scrollr =========================
 
-  var s = skrollr.init();
+  if ($(window).width() > 1024) {
+    var s = skrollr.init()
+}
 });
